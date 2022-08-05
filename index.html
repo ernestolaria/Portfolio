@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    
+
 </head>
 
 <body>
-    
+
     <script src="script.js"></script>
     
     <div class="scroll-up-btn">
@@ -38,9 +38,9 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Name</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Resume</a>
+                <div class="text-2">Omar Laria</div>
+                <div class="text-3">And I'm a Software Developer<span class="typing"></span></div>
+                <a href="resume.pdf" download="resume"><i class="fa fa-download"></i> Resume</a>
             </div>
         </div>
     </section>
@@ -143,47 +143,54 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <p>Contact me through my email or my linkedin profile</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">MY NAME</div>
+                                <div class="sub-title">Omar Laria</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title">PLACE</div>
+                                <div class="sub-title">Miami FL</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">abc@email.com</div>
+                                <div class="sub-title">ernestolaria@yahoo.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="info">
+                                <div class="head">Linkedin</div>
+                                <div class="sub-title">omar laria</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/196a6f48270bd64c30978ed9bee61abf" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field subject">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="textarea" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
