@@ -242,11 +242,6 @@ section .title{
     background-attachment: fixed;
 }
 
-.projects .projects-content{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 .projects .projects-content .card{
     width: calc(50% - 20px);
     margin-bottom: 30px;
