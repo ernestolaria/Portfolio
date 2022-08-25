@@ -83,7 +83,7 @@ section .title{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #fff;    
 }
 .navbar .menu li{
     list-style: none;
@@ -142,7 +142,7 @@ section .title{
 /* home section styling */
 .home{
     display: flex;
-    background-image: url(/image.jpg);
+    background-image: url(../image.jpg);
     background-attachment: fixed;
     color: #fff;
     min-height: 500px;
@@ -156,6 +156,10 @@ section .title{
 .home .max-width .row{
   margin-right: 0;
 }
+.home .home-content{
+    padding-top: 200px;
+    padding-bottom: 200px;
+} 
 .home .home-content .text-1{
     font-size: 27px;
 }
